@@ -1,0 +1,37 @@
+#ques no : 1
+print ("Twinkle, twinkle, little star,")
+print ("\tHow I wonder what you are!")
+print ("\t\tUp above the world so high,,")
+print ("\tLike a diamond in the sky.")
+print ("Twinkle, twinkle, little star,")
+print ("\tHow I wonder what you are")
+
+#ques no : 2
+import sys
+print ("I am using the python version : ",sys.version)
+print ("Version info : ",sys.version_info)
+
+#ques no : 3
+from datetime import date
+print ("Today's Date : ",date.today())
+
+#ques no : 4
+from math import pi
+r = float  (input("Enter the radius of a crcle : "))
+print("Radius of a circle is :",r)
+print("Ara of a circle is : "+str(pi*r**2))
+
+
+Ques # 05
+word = input("Enter Your Name : ")
+for char in range(len(word) - 1, -1, -1):
+  print(word[char], end="")
+print("\n")
+
+num1=float(input("Enter num 1 : "))
+num2=float(input("Enter num 2 : "))
+
+
+Ques # 06
+
+print ("{0} + {1} = {2}".format(num1,num2,num1+num2))
